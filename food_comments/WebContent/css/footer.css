@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+.footer {
+width: 960px;
+margin: 0 auto;
+font-family: Tahoma,sans-serif;
+margin-bottom: 30px;
+padding-top: 15px;
+color: #999;
+border-top: 1px dashed #e4e4e4;
+}
+.footer-static {
+text-align: center;
+border-top: 1px solid #e0e0e0;
+}
+.footer-static ul {
+margin-bottom: 10px;
+}
+.footer-static li {
+display: inline;
+margin-right: 8px;
+color: #CCC;
+}
+.footer-static li a {
+margin-right: 10px;
+color: #999;
+}
+.footer-static p a {
+color: #999;
+}

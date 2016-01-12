@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+    
+ <hibernate-mapping package="rider.gaim.entity">
+ 	<class name="Commentary" table="f_commentary">
+ 		<id name="id" column="ID">
+ 			<generator class="native"></generator>
+ 		</id>
+ 		
+ 		<property name="startLv" column="startLv" ></property>
+ 		<property name="tasteScocer" column="tasteScocer" ></property>
+ 		<property name="conditionScocer" column="conditionScocer" ></property>
+ 		<property name="serviceScocer" column="serviceScocer" ></property>
+ 		<property name="favoriteDish" column="favoriteDish" ></property>
+ 		<property name="content" column="content"  not-null="true"/>
+ 		<property name="perCapita" column="perCapita" ></property>
+ 		<property name="restaurantFeatures" column="restaurantFeatures" ></property>
+ 		
+ 		<property name="createTime" column="createTime" ></property>
+ 		<property name="updateTime" column="updateTime" ></property>
+ 		<property name="layer" column="layer" ></property>
+ 		<property name="user_nick" column="user_nick" ></property>
+ 		<property name="serialNumber" column="serialNumber" ></property>
+ 		
+ 		<many-to-one name="user" column="user_id"></many-to-one>
+ 		<many-to-one name="merchant" column="merchant_id"></many-to-one>
+ 		
+ 	</class>
+ 
+ </hibernate-mapping>

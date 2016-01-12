@@ -1,0 +1,804 @@
+@charset "utf-8"; 
+
+.header {
+	margin-bottom: 0
+}
+
+.header .nav-bar {
+	height: 5px;
+	overflow: hidden
+}
+
+.chang-butns a, .srch-place, .bk-slet, .bk-slet span, .drop-close,
+	.book-select .bk-date {
+	background-image:
+		url(http://si1.s1.dpfile.com/s/c/app/booking/img/bookindex.c1184eca9c783d574cdea23d7821dc02.png);
+	background-repeat: no-repeat
+}
+
+.booking-top {
+	background:
+		url(http://si1.s1.dpfile.com/s/c/app/booking/img/top-bg.2192d528a0552354b756b2f5ea29d37a.jpg)
+		no-repeat 0 0
+}
+
+.bg-topbo {
+	background:
+		url(http://si1.s1.dpfile.com/s/c/app/booking/img/top-bgbo.79c715888ebbde16052410c8de4627d2.jpg)
+		no-repeat 0 0
+}
+
+.bg-topmerry {
+	background:
+		url(http://si1.s1.dpfile.com/s/c/app/booking/img/bg-topmerry.0324a4ed0faf97a13b116c78aeda511d.jpg)
+		no-repeat 0 0
+}
+
+.bg-topsnow {
+	background:
+		url(http://si1.s1.dpfile.com/s/c/app/booking/img/bg-topnight.dcf23fa63a642fc8796dd8d8c9efda4c.png)
+		no-repeat 0 0
+}
+
+.bg-topbo .lot-link, .bg-topmerry .lot-link, .bg-topsnow .lot-link {
+	display: block;
+	width: 184px;
+	height: 195px;
+	position: absolute;
+	right: 0;
+	top: 0
+}
+
+.booking-container, .book-select, .book-select .chal-time ul {
+	zoom: 1;
+	position: relative
+}
+
+.booking-container:after, .book-select:after, .book-select .chal-time ul:after
+	{
+	content: "\20";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both
+}
+
+.wrapper {
+	width: 960px;
+	margin: -3px auto 20px
+}
+
+.booking-top {
+	height: 275px;
+	padding: 28px 0 0 0;
+	margin-bottom: 18px;
+	position: relative;
+	z-index: 3;
+	zoom: 1;
+	border-bottom: 2px solid #c1c0da
+}
+
+.booking-top .inner {
+	width: 593px;
+	margin: 0 auto
+}
+
+.booking-top h3, .book-select p {
+	margin-bottom: 3px;
+	font-size: 14px;
+	color: #fff;
+	line-height: 180%
+}
+
+.srch-place {
+	width: 555px;
+	height: 35px;
+	_height: 34px;
+	margin-bottom: 5px;
+	padding-left: 38px;
+	background-position: 0 0;
+	position: relative
+}
+
+.srch-place .input-plain {
+	margin-top: 2px;
+	padding: 6px 0 6px 10px;
+	width: 420px;
+	height: 20px;
+	_height: 19px;
+	font-size: 14px;
+	border: 0;
+	background: 0;
+	color: #bbb
+}
+
+.srch-place .input-plain:hover {
+	color: #999
+}
+
+.srch-place .input-plain:focus {
+	background-color: #fff;
+	color: #666
+}
+
+.srch-place .drop-butn {
+	display: block;
+	width: 25px;
+	height: 29px;
+	position: absolute;
+	right: 3px;
+	top: 3px
+}
+
+.hot-place {
+	margin-bottom: 15px
+}
+
+.hot-place a, .drop-downlist a {
+	margin-right: 13px;
+	color: #ffaa6c;
+	padding: 0 2px 2px
+}
+
+.hot-place a:hover, .drop-downlist a:hover, .drop-downlist .desc-con .cur
+	{
+	background-color: #66c;
+	color: #fff
+}
+
+.book-select {
+	height: 54px;
+	margin-bottom: 27px
+}
+
+.book-select p {
+	height: 26px
+}
+
+.book-select .bk-time {
+	float: left;
+	width: 420px
+}
+
+.book-select .bk-num {
+	float: left;
+	padding-left: 19px
+}
+
+.book-select .bk-slet {
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	height: 29px;
+	_height: 28px;
+	padding-left: 2px;
+	background-position: 0 -40px;
+	font-size: 12px;
+	overflow: hidden;
+	vertical-align: middle
+}
+
+.book-select .bk-slet span {
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	height: 28px;
+	_height: 28px;
+	line-height: 29px;
+	padding: 0 20px 0 6px;
+	background-position: right -40px
+}
+
+.book-select .bk-hour span {
+	padding-right: 120px
+}
+
+.book-select .bk-menb span {
+	padding-right: 120px;
+	width: 26px
+}
+
+.book-select .bk-date {
+	width: 241px;
+	padding: 6px 10px 6px 6px;
+	height: 16px;
+	background-position: 0 -86px;
+	border: 0 none;
+	cursor: pointer;
+	vertical-align: top
+}
+
+.butn-area {
+	width: 216px;
+	margin: 0 0 0 -108px;
+	padding-top: 18px;
+	position: absolute;
+	bottom: 22px;
+	left: 50%
+}
+
+.butn-snow {
+	display: block;
+	width: 216px;
+	height: 54px;
+	background:
+		url(http://si1.s1.dpfile.com/s/c/app/booking/img/butn-night.1909ce3b928ac186aa378ba80e2841cf.png)
+		no-repeat 3px 0;
+	border: 0
+}
+
+.drop-downlist {
+	position: absolute;
+	left: 180px;
+	top: 85px;
+	z-index: 20;
+	width: 571px;
+	padding: 5px 10px 5px;
+	background-color: #fff;
+	border: 1px solid #c1c1c1;
+	line-height: 180%
+}
+
+.drop-downlist h4 {
+	font-weight: bold
+}
+
+.drop-downlist .desc-con {
+	margin: 3px 0
+}
+
+.drop-downlist .desc-con a {
+	margin-right: 22px;
+	white-space: nowrap;
+	color: #333;
+	padding: 2px 0
+}
+
+.drop-downlist .desc-con a:hover {
+	color: #fff;
+	background-color: #ff9040
+}
+
+.drop-downlist .desc-con.hot {
+	border-bottom: dashed 1px #e4e4e4;
+	margin-bottom: 10px;
+	padding-bottom: 5px
+}
+
+.drop-downlist .desc-bg {
+	margin: 5px 0;
+	padding: 5px 10px;
+	border: 1px solid #d2d2d1;
+	background-color: #f9f9f9
+}
+
+.drop-downlist .hot-area {
+	padding-bottom: 5px;
+	margin-bottom: 8px;
+	border-bottom: 1px dashed #e4e4e4
+}
+
+.drop-downlist .drop-close {
+	position: absolute;
+	right: 5px;
+	top: 10px;
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 0;
+	background-position: -40px -70px
+}
+
+.drop-downlist .drop-close:hover {
+	background-position: -40px -70px;
+	background-color: #fff
+}
+
+.book-select .chal-select {
+	border: 1px solid #c1c1c1;
+	background-color: #fff;
+	z-index: 10;
+	position: absolute;
+	top: 56px
+}
+
+.book-select .chal-time {
+	width: 157px;
+	margin-bottom: 3px;
+	background-color: #fff;
+	font-size: 12px;
+	color: #a8a7a0
+}
+
+.book-select .chal-time div {
+	float: left;
+	width: 78px
+}
+
+.book-select .chal-time .chal-lunch {
+	border-right: 1px solid #d2d2d1
+}
+
+.book-select .chal-time li {
+	float: left;
+	width: 39px;
+	text-align: center
+}
+
+.book-select .chal-select a {
+	display: block;
+	color: #66c;
+	padding: 2px 0
+}
+
+.book-select .chal-select a:hover, .book-select .chal-time li .option-active
+	{
+	background-color: #66c;
+	color: #fff
+}
+
+.book-select .chal-time .full {
+	color: #cccad3
+}
+
+.book-select .chal-time h6 {
+	margin-bottom: 3px;
+	padding: 2px 6px;
+	background-color: #f3f3f3;
+	font-size: 12px;
+	color: #a8a7a0
+}
+
+.book-select .chal-person {
+	width: 152px;
+	height: 200px;
+	overflow-y: scroll;
+	overflow-x: hidden
+}
+
+.book-select .chal-person ul {
+	padding: 5px 2px
+}
+
+.book-select .chal-person li {
+	text-align: left
+}
+
+.book-select .chal-person .option {
+	width: 131px;
+	text-indent: 15px
+}
+
+.wrapper .bktits {
+	margin-bottom: 5px;
+	font-size: 14px;
+	color: #c00
+}
+
+.book-main {
+	float: left;
+	width: 710px
+}
+
+.book-main .bktits {
+	margin-top: 20px;
+	padding: 0 0 5px 10px;
+	border-bottom: 1px solid #e0e0e0;
+	clear: both
+}
+
+.book-main .shops-list ul {
+	position: relative;
+	margin-left: -10px;
+	zoom: 1
+}
+
+.book-main .shops-list ul:after {
+	content: ' ';
+	display: block;
+	height: 0;
+	clear: both
+}
+
+.book-main .shops-list li {
+	float: left;
+	width: 328px;
+	padding: 10px;
+	margin: 10px 0 0 10px;
+	display: inline;
+	border: 1px solid #dbdbdb;
+	color: #666
+}
+
+.book-main .shops-list li .pics img {
+	width: 146px;
+	height: 109px;
+	float: left
+}
+
+.book-main .shops-list li .dis {
+	width: 170px;
+	height: 114px;
+	float: right
+}
+
+.book-main .shops-list li h3 {
+	margin: 5px 0;
+	font-size: 18px;
+	font-family: "Microsoft YaHei", Helvetica, Arial, sans-serif;
+	height: 27px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis
+}
+
+.book-main .shops-list li p {
+	line-height: 150%
+}
+
+.book-main .shops-list li .rst {
+	margin-right: 15px
+}
+
+.book-main .banners-container {
+	position: relative;
+	overflow: hidden;
+	height: 100px
+}
+
+.book-main .banners-div {
+	position: absolute
+}
+
+.book-main .banners-div li {
+	float: left;
+	width: 710px
+}
+
+.book-main .banners-container .triggers {
+	position: absolute;
+	bottom: 0;
+	right: 10px;
+	font-size: 18px;
+	opacity: .5
+}
+
+.book-main .banners-container .triggers li {
+	float: left;
+	width: 18px;
+	text-align: center;
+	color: #000;
+	cursor: pointer
+}
+
+.book-main .banners-container .triggers li.current {
+	color: #fff
+}
+
+.rank-stars .item-rank-rst {
+	display: block;
+	width: 84px;
+	height: 16px;
+	float: none;
+	margin-bottom: 5px
+}
+
+.rank-stars .irr-star0 {
+	background-position: 0 -250px
+}
+
+.rank-stars .irr-star5 {
+	background-position: 0 -310px
+}
+
+.rank-stars .irr-star10 {
+	background-position: 0 -232px
+}
+
+.rank-stars .irr-star20 {
+	background-position: 0 -214px
+}
+
+.rank-stars .irr-star30 {
+	background-position: 0 -196px
+}
+
+.rank-stars .irr-star35 {
+	background-position: 0 -290px
+}
+
+.rank-stars .irr-star40 {
+	background-position: 0 -178px
+}
+
+.rank-stars .irr-star45 {
+	background-position: 0 -270px
+}
+
+.rank-stars .irr-star50 {
+	background-position: 0 -160px
+}
+
+.t-warp {
+	z-index: 100000
+}
+
+.t-warp .toleft, .t-warp .toright, .t-warp .m-close {
+	background-image:
+		url(http://si1.s1.dpfile.com/s/c/app/booking/img/mth-bg.8faba11e067ee866a3508bead54f43f6.png);
+	background-repeat: no-repeat
+}
+
+.t-warp .toleft, .t-warp .toright {
+	display: block;
+	width: 24px;
+	height: 38px;
+	position: absolute;
+	top: 93px
+}
+
+.t-warp .toleft {
+	background-position: -104px 0;
+	left: 8px
+}
+
+.t-warp .toright {
+	background-position: -75px 0;
+	right: 8px
+}
+
+.t-warp .m-close {
+	display: block;
+	width: 17px;
+	height: 17px;
+	background-position: -50px 0;
+	position: absolute;
+	right: 8px;
+	top: 8px;
+	text-indent: -999px;
+	overflow: hidden;
+	display: none
+}
+
+.t-warp {
+	width: 380px;
+	padding: 20px 40px 15px;
+	border: 1px solid #c3c3c3;
+	-webkit-box-shadow: 1px 0 2px 0 #e4e4e4;
+	box-shadow: 1px 0 2px 0 #e4e4e4;
+	zoom: 1;
+	position: relative;
+	background-color: #FFF
+}
+
+.t-warp:after {
+	display: block;
+	height: 0;
+	visibility: hidden;
+	font-size: 0;
+	content: ".";
+	clear: both
+}
+
+.t-warp .mth-bx {
+	float: left;
+	width: 182px;
+	text-align: center
+}
+
+.mth-bx table {
+	border-collapse: collapse
+}
+
+.mth-bx th {
+	padding: 3px 0;
+	font-weight: normal
+}
+
+.mth-bx h6 {
+	padding-bottom: 3px;
+	font-size: 12px;
+	text-align: center;
+	border-bottom: 1px solid #e4e4e3
+}
+
+.mth-bx td {
+	border: 1px solid #e4e4e3
+}
+
+.mth-bx td a {
+	display: block;
+	width: 25px;
+	height: 22px;
+	line-height: 22px;
+	color: #000
+}
+
+.mth-bx td a:hover, .mth-bx td .onday {
+	background-color: #ff8400;
+	color: #FFF;
+	text-decoration: none
+}
+
+.mth-bx td .fest {
+	color: #f60;
+	font-size: 10px;
+	font-family: Tahoma, Geneva, sans-serif;
+	line-height: 22px;
+	font-weight: normal
+}
+
+.mth-bx td .outday, .mth-bx td .outday:hover {
+	color: #999;
+	background-color: #ededed;
+	text-decoration: none;
+	cursor: default
+}
+
+.mth-bx td .eptyday, .mth-bx td .eptyday:hover {
+	cursor: default;
+	background-color: #fff
+}
+
+.t-warp .mth-bxscend {
+	margin-left: 15px
+}
+
+.book-sider {
+	float: right;
+	width: 218px;
+	padding: 10px;
+	border: 1px solid #e2e2e2;
+	overflow: hidden
+}
+
+.book-sider .bk-tit {
+	position: relative;
+	zoom: 1
+}
+
+.book-sider .chang-butns {
+	position: absolute;
+	top: 3px;
+	right: 0
+}
+
+.book-sider .chang-butns a {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	width: 17px;
+	height: 14px
+}
+
+.book-sider .chang-butns .turn-left {
+	background-position: 0 -70px
+}
+
+.book-sider .chang-butns .turn-right {
+	background-position: -20px -70px
+}
+
+.pic-txt-con {
+	position: relative;
+	height: auto;
+	overflow: hidden
+}
+
+.pic-txt-wrap {
+	position: relative;
+	height: 570px;
+	overflow: hidden
+}
+
+.pic-txt {
+	position: absolute;
+	zoom: 1
+}
+
+.pic-txt li, .pic-txt li {
+	position: relative;
+	zoom: 1
+}
+
+.pic-txt ul {
+	width: 218px
+}
+
+.pic-txt li:after, .pic-txt:after {
+	content: "\20";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both
+}
+
+.pic-txt li .pic, .pic-txt .pic {
+	float: left;
+	margin-right: 10px;
+	_display: inline
+}
+
+.pic-txt li .pic img, .pic-txt .pic img {
+	display: block
+}
+
+.pic-txt li .txt, .pic-txt .txt {
+	display: table-cell;
+	*display: inline-block;
+	width: 2000px;
+	*width: auto;
+	table-layout: fixed;
+	word-wrap: break-word;
+	word-break: break-all;
+	*float: left
+}
+
+.pic-txt li .txt:after, .pic-txt .txt:after {
+	clear: both;
+	display: block;
+	visibility: visible;
+	overflow: hidden;
+	height: 0 !important;
+	line-height: 0;
+	font-size: xx-large;
+	content: " x x x x x"
+}
+
+.book-sider li {
+	margin-top: 13px
+}
+
+.book-sider .pic img {
+	width: 48px;
+	height: 40px
+}
+
+.book-sider .pic-txt h4 {
+	padding-bottom: 5px;
+	height: 18px;
+	width: 160px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis
+}
+
+.book-sider .pic-txt h4 a {
+	color: #66c;
+	line-height: 18px
+}
+
+.book-sider .pic-txt .col-exp {
+	color: #999
+}
+
+.dacu-banr {
+	height: 100px;
+	overflow: hidden
+}
+
+.dacu-banr img {
+	width: 710px;
+	height: 100px;
+	overflow: hidden
+}
+
+.search_sgst {
+	width: 479px;
+	z-index: 100000;
+	border: solid 1px #c1c1c1
+}
+
+.search_sgst .location_list li {
+	height: 30px;
+	line-height: 30px;
+	background-color: #fff;
+	cursor: pointer;
+	padding: 0 0 0 10px;
+	color: #333
+}
+
+.search_sgst .location_list li:hover, .search_sgst .location_list li.hover
+	{
+	background-color: #f8f8f8
+}

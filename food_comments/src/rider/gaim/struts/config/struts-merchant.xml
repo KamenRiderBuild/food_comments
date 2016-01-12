@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE struts PUBLIC  
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"  
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<package name="merchant " extends="default" namespace="/merchant">
+		<action name="addMerchant" class="merchantAction" method="addMerchant">
+			
+		</action>
+		
+		<action name="review" class="merchantAction" method="toReview">
+			
+			<result name="success">/review.jsp</result>
+		</action>
+		<action name="*" class="merchantAction" method="getMerchantAndAllInfo">
+			<param name="merchant.mid">{1}</param>
+			<result name="success">/merchant.jsp</result>
+		</action>
+	</package>
+</struts>

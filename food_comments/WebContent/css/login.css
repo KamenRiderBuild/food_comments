@@ -1,0 +1,243 @@
+@charset "utf-8";
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-weight: normal;
+font-size: 100%;
+}
+
+body, button, input, select, textarea {
+font: 12px/1.5 Tahoma,sans-serif;
+}
+
+body {
+line-height: 1;
+background: transparent;
+color: #555;
+outline: 0;
+display: block;
+background-color: #fff;
+}
+
+a {
+text-decoration: none;
+outline: 0 none;
+color: #788eb7;
+}
+
+div {
+display: block;
+}
+
+ul, ol, li {
+list-style: none outside;
+}
+.header_s, .footer_s, .main_s, .header_w, .footer_w, .main_w, .nav_w, .box, .header, .footer, .main, .section_w, .section, section_s, .footer_s .catLinks, .footer_w .catLinks {
+zoom: 1;
+}
+
+.input-plain, .textarea-plain {
+width: 140px;
+height: 17px;
+line-height: 17px;
+padding: 6px 7px;
+color: #bbb;
+border: 1px solid #ccc;
+}
+.header, .main, .secondary {
+font-family: Tahoma,sans-serif;
+}
+
+.pop-panel_list li a, .pop-panel_list li a:hover{
+background-image: url(../img/002.png);
+}
+.header {
+padding: 16px 0 24px;
+}
+.header, .main {
+width: 960px;
+margin: 0 auto;
+}
+
+.header a, .header-bar a {
+color: #61646e;
+}
+img {
+vertical-align: middle;
+}
+fieldset, img {
+border: 0;
+}
+.split {
+display: inline-block;
+vertical-align: middle;
+color: #ddd;
+margin: 0 2px;
+}
+i, em {
+font-style: normal;
+}
+.header .sub-logo {
+display: inline-block;
+vertical-align: middle;
+position: relative;
+top: 3px;
+margin-left: 17px;
+padding: 0 17px;
+border-left: 1px solid #dcdcdc;
+font-size: 20px;
+font-family: "Microsoft YaHei";
+color: #666;
+line-height: 28px;
+}
+.main {
+color: #111;
+}
+.login-wrap {
+height: 424px;
+padding-left: 588px;
+background: #f7f7f7 url(../img/login-bg.png) no-repeat 42px 32px;
+}
+.login-wrap .mid-out {
+position: relative;
+zoom: 1;
+height: 424px;
+display: table-cell;
+vertical-align: middle;
+}
+.login-wrap .mid-in {
+}
+.login-wrap .login-box {
+position: relative;
+width: 250px;
+padding: 25px 0 30px 40px;
+border: 1px solid #ebebeb;
+background-color: #fff;
+}
+.login-box .tit {
+padding-bottom: 15px;
+}
+.login-box h3 {
+font-size: 16px;
+font-family: "Microsoft YaHei";
+color: #666;
+}
+.login-box .msg-box {
+width: 210px;
+line-height: 23px;
+margin-bottom: 10px;
+}
+.Hide {
+display: none!important;
+}
+.login-box .msg-box .err {
+display: block;
+padding: 0 9px;
+background-color: #fff2f2;
+border: 1px solid #ff8080;
+color: #c00;
+}
+.form-box li {
+position: relative;
+padding-bottom: 15px;
+color: #999;
+}
+.form-box .input-plain {
+width: 188px;
+height: 18px;
+padding: 6px 10px;
+color: #333;
+}
+.input-plain, .textarea-plain {
+width: 140px;
+height: 17px;
+line-height: 17px;
+padding: 6px 7px;
+color: #bbb;
+border: 1px solid #ccc;
+}
+textarea, input {
+resize: none;
+outline: 0;
+}
+button, input, select, textarea {
+font-size: 100%;
+margin: 0;
+padding: 0;
+outline: 0;
+}
+
+
+.form-box .captcha {
+position: relative;
+height: 32px;
+zoom: 1;
+}
+.form-box .captcha .ipt-s {
+float: left;
+margin-right: 12px;
+}
+.form-box .ipt-s {
+width: 84px;
+}
+.form-box .captcha .c-pic {
+float: left;
+}
+.form-box .captcha .c-pic img {
+width: 92px;
+height: 31px;
+}
+.form-box .captcha .pop-cpic {
+position: absolute;
+top: -53px;
+right: 40px;
+width: 153px;
+background-color: #fff;
+}
+
+.form-box .auto-login {
+margin-top: -5px;
+}
+.form-box .chk {
+position: relative;
+top: 3px;
+margin-right: 7px;
+}
+form label {
+cursor: pointer;
+}
+.form-box .forget-pwd {
+position: absolute;
+right: 40px;
+color: #999;
+}
+.form-box .btn-box {
+margin-top: 2px;
+width: 210px;
+}
+.form-box .btn-box .btn {
+display: block;
+line-height: 34px;
+height: 34px;
+text-align: center;
+background-color: #ffa631;
+color: #fff;
+font-size: 14px;
+font-weight: bold;
+border: 0;
+width: 100%;
+cursor: pointer;
+}
+.login-wrap .other-login {
+position: relative;
+width: 210px;
+margin-top: 19px;
+padding-top: 15px;
+border-top: 1px dashed #d8d8d8;
+}

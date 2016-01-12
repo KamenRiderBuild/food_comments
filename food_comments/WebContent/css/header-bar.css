@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+html, body, ul, ol, li, dl, dt, dd, p, h1, h2, h3, h4, h5, h6, a, img, th, td, form, fieldset, iframe, object, pre, code, legend, blockquote {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+}
+
+.header-bar, .header-bar .drop-icon, .hd-menu .mi, .header .loc-btn, .header .loc-btn .txt, .header .nav a, .header .nav strong, .header .nav-bar, .header .channel, .header .chan-btn, .header .s-wrap, .header .s-wrap-inner, .header .s-box .cate-select, .header .s-box .s-btn, .pop-panel_list li a, .pp_channels .root-item, .pp_channels .root-name, .pp_channels .root-name span, .pp_channels .sub-list li a, .pp_quick-nav .icon, .header .nav .icon, .header-bar .nav-search a, .header-bar .nav-search span, .pp_nav-search .form-btn, .header-bar .hd-menu .i-mobile, .header-bar .switch-new, .trafic-tt .i-new, .user-login .icon-qq {
+background-image: url(../img/002.png);
+background-repeat: no-repeat;
+}
+.header-bar {
+width: 100%;
+min-width: 960px;
+height: 30px;
+background-position: 0 0;
+background-repeat: repeat-x;
+overflow: visible;
+font-family: Tahoma,sans-serif;
+}
+
+.header-bar .inner {
+line-height: 28px;
+line-height: 29px\9;
+color: #999;
+}
+.header-bar .inner {
+margin-bottom: 0;
+}
+.header-bar .inner{
+width: 960px;
+margin: 0 auto;
+}
+
+.header-bar a {
+color: #61646e;
+}
+
+.header-bar .user-action {
+float: left;
+}
+.header-bar .hd-menu {
+z-index: 1001;
+}
+.hd-menu {
+line-height: 14px;
+color: #999;
+position: relative;
+}
+ol, ul {
+list-style: none;
+}
+
+.hd-menu .first, .header .menu .first {
+background: 0;
+}
+.hd-menu .mi, .header-bar .tagline, .hd-menu .mi-nosplit {
+float: left;
+padding-left: 8px;
+padding-top: 7px;
+background-position: -169px -451px;
+padding-top: 9px\9;
+}
+
+.hd-menu a, .hd-menu .item {
+float: left;
+padding-right: 7px;
+}
+.hd-menu .user-signup .split {
+display: inline-block;
+zoom: 1;
+padding: 0 7px;
+color: #ddd;
+font-style: normal;
+vertical-align: baseline;
+margin: 0;
+}
+
+.header-bar .user-signup {
+padding-left: 4px;
+background: 0;
+}
+
+
+.header-bar .quick-menu {
+float: right;
+margin-left: -100px;
+}
+.header-bar .hd-menu {
+z-index: 1001;
+}
+.header-bar .quick-menu .last {
+margin-right: 0;
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE struts PUBLIC  
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"  
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<package name="user" extends="default" namespace="/user">
+		<action name="login" class="userAction" method="login">
+			
+		</action>
+		
+		<action name="loginOut" class="userAction" method="loginOut">
+			
+		</action>
+		
+		<action name="regist" class="userAction" method="regist">
+			
+		</action>
+		
+	</package>
+</struts>

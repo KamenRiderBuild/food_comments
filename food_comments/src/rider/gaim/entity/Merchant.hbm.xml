@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+    
+ <hibernate-mapping package="rider.gaim.entity">
+ 	<class name="Merchant" table="f_merchant">
+ 		<id name="id" column="ID">
+ 			<generator class="native"></generator>
+ 		</id>
+ 		<property name="mid" column="mid"  update="false" unique="true"/>
+ 		<property name="name" column="name"  />
+ 		<property name="aliases" column="aliases" ></property>
+ 		<property name="style" column="style" ></property>
+ 		<property name="address" column="address"  ></property>
+ 		<property name="tel" column="tel" ></property>
+ 		<property name="cellPhone" column="cellPhone" ></property>
+ 		<property name="businessHours" column="businessHours" ></property>
+ 		<property name="busInformation" column="busInformation" ></property>
+ 		<property name="user_nick" column="user_nick" ></property>
+ 		
+ 		<many-to-one name="user" column="user_id"></many-to-one>
+ 		<many-to-one name="briefInfo" column="briefInfo_id" cascade="all" unique="true" lazy="false"></many-to-one>
+ 		<one-to-one name="business" class="Business" property-ref="merchant" />
+ 		
+ 		<set name="photos" cascade="delete" lazy="false">
+ 			<key column="merchant_id"></key>
+ 			<one-to-many class="Photo" />
+ 		</set>
+ 		
+ 		<set name="commentaries" cascade="delete" lazy="false">
+ 			<key column="merchant_id"></key>
+ 			<one-to-many class="Commentary" />
+ 		</set>
+ 		
+ 	</class>
+ 
+ </hibernate-mapping>

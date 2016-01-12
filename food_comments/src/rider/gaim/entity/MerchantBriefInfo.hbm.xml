@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+    
+ <hibernate-mapping package="rider.gaim.entity">
+ 	<class name="MerchantBriefInfo" table="f_merchantBriefInfo">
+ 		<id name="id" column="ID">
+ 			<generator class="native"></generator>
+ 		</id>
+ 		<property name="mid" column="mid"></property>
+ 		<property name="merchantName" column="merchantName"></property>
+ 		<property name="address" column="address"></property>
+ 		<property name="startLv" column="startLv"></property>
+ 		<property name="commentaryCount" column="commentaryCount"></property>
+ 		<property name="perCapita" column="perCapita"></property>
+ 		<property name="tasteScocer" column="tasteScocer"></property>
+ 		<property name="conditionScocer" column="conditionScocer"></property>
+ 		<property name="serviceScocer" column="serviceScocer"></property> 		
+ 		
+ 		<one-to-one name="merchant" class="Merchant" property-ref="briefInfo" />
+
+ 	</class>
+ 
+ </hibernate-mapping>

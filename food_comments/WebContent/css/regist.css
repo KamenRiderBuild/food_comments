@@ -1,0 +1,269 @@
+@charset "utf-8";
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+}
+
+body, button, input, select, textarea {
+font: 12px/1.5 Tahoma,sans-serif;
+}
+
+body {
+line-height: 1;
+background: transparent;
+color: #555;
+outline: 0;
+display: block;
+}
+
+a {
+text-decoration: none;
+outline: 0 none;
+color: #788eb7;
+}
+
+div {
+display: block;
+}
+
+ul, ol, li {
+list-style: none outside;
+}
+.input-plain, .textarea-plain {
+width: 140px;
+height: 17px;
+line-height: 17px;
+padding: 6px 7px;
+color: #bbb;
+border: 1px solid #ccc;
+}
+.pop-panel_list li a, .pop-panel_list li a:hover {
+background-image: url(../img/002.png);
+}
+.header {
+padding: 16px 0 24px;
+zoom: 1;
+}
+.header, .main {
+width: 960px;
+margin: 0 auto;
+}
+.header a{
+color: #61646e;
+}
+img {
+vertical-align: middle;
+}
+fieldset, img {
+border: 0;
+}
+.split {
+display: inline-block;
+vertical-align: middle;
+color: #ddd;
+margin: 0 2px;
+}
+i, em {
+font-style: normal;
+}
+element.style {
+}
+.header .sub-logo {
+display: inline-block;
+vertical-align: middle;
+position: relative;
+top: 3px;
+margin-left: 17px;
+padding: 0 17px;
+border-left: 1px solid #dcdcdc;
+font-size: 20px;
+font-family: "Microsoft YaHei";
+color: #666;
+line-height: 28px;
+}
+.main {
+color: #111;
+}
+.register-wrap {
+position: relative;
+background-color: #f7f7f7;
+padding: 35px 30px 28px 586px;
+}
+.register-wrap .directly-enter {
+position: absolute;
+left: 0;
+_left: -586px;
+top: 0;
+width: 586px;
+}
+
+
+.register-wrap .register-box {
+padding: 10px 0 10px 50px;
+border-left: 1px dashed #d8d8d8;
+}
+
+.register-wrap .register-box h3 {
+font-size: 16px;
+font-family: "Microsoft YaHei";
+font-weight: normal;
+color: #666;
+}
+.register-wrap .register-box h3 strong {
+font-size: 18px;
+font-weight: bold;
+color: #f90;
+margin: 0 3px;
+}
+
+.register-wrap .register-box .reg-tabs {
+margin: 20px 0 18px;
+background-color: #ececec;
+width: 273px;
+overflow: hidden;
+}
+
+.register-wrap .register-box .reg-tabs ul {
+width: 275px;
+zoom: 1;
+}
+.register-wrap .register-box .reg-tabs li {
+position: relative;
+float: left;
+width: 137px;
+}
+
+.register-wrap .register-box .reg-tabs .cur a {
+border-top-color: #f90;
+cursor: default;
+}
+.register-wrap .register-box .reg-tabs a {
+display: block;
+height: 32px;
+border-top: 2px solid #ececec;
+text-align: center;
+line-height: 32px;
+font-size: 14px;
+color: #666;
+}
+
+.register-wrap .register-box .reg-tabs a .icon-email {
+margin-right: 10px;
+background-position: -30px -110px;
+}
+
+.register-wrap .register-box .reg-tabs a i {
+position: relative;
+top: -1px;
+display: inline-block;
+vertical-align: middle;
+width: 15px;
+height: 15px;
+}
+.icon-arr-down, .icon-arr-up, .other-login-list i, .login-wrap .other-login .btn-qq i, .register-wrap .directly-enter .account-list .icon-al, .register-wrap .register-box .reg-tabs a i, .third-login .login-box .icon-bind {
+background-image: url(http://si1.s1.dpfile.com/s/c/app/account/i/login-q/sprite.086a6296b81fcba04e41a09445597271.png);
+background-repeat: no-repeat;
+}
+.register-wrap .register-box .msg-box {
+width: 210px;
+line-height: 23px;
+padding: 0 0 10px 63px;
+}
+.Hide {
+display: none!important;
+}
+
+form label {
+cursor: pointer;
+}
+
+.form-tit-box li {
+position: relative;
+width: 280px;
+padding-left: 85px;
+}
+.form-tit-box li label {
+position: absolute;
+left: 0;
+width: 85px;
+line-height: 32px;
+text-align: right;
+}
+.form-tit-box .btn-box {
+margin-top: 7px;
+padding-left: 85px;
+}
+
+.form-box li {
+position: relative;
+padding-bottom: 15px;
+color: #999;
+}
+.form-box .btn-box {
+margin-top: 2px;
+width: 210px;
+}
+
+.register-wrap .register-box .form-tit-box .err {
+border-top: 0;
+}
+.register-wrap .register-box .err {
+display: block;
+padding: 0 9px;
+background-color: #fff2f2;
+border: 1px solid #ff8080;
+color: #c00;
+}
+
+.register-wrap .register-box .form-tit-box li {
+width: 250px;
+padding-left: 63px;
+}
+.register-wrap .register-box .form-tit-box li label {
+width: 63px;
+}
+
+.form-box .input-plain {
+width: 188px;
+height: 18px;
+padding: 6px 10px;
+color: #333;
+}
+.form-box .captcha .ipt-s {
+float: left;
+margin-right: 12px;
+}
+.form-box .ipt-s {
+width: 84px;
+}
+.form-box .captcha {
+position: relative;
+zoom: 1;
+display: table;
+}
+.form-box .captcha .c-pic {
+float: left;
+}
+.form-box .captcha .c-pic img {
+width: 92px;
+height: 31px;
+vertical-align: middle;
+border:0;
+}
+.register-wrap .register-box .form-tit-box .btn-box {
+padding-left: 63px;
+}
+.btn-shallow {
+display: inline-block;
+padding: 0 15px;
+border: 1px solid #f4cea8;
+background-color: #fffcf5;
+line-height: 28px;
+height: 30px;
+color: #f90;
+font-weight: bold;
+cursor: pointer;
+}

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+    
+ <hibernate-mapping package="rider.gaim.entity">
+ 	<class name="Photo" table="f_photo">
+ 		<id name="id" column="ID">
+ 			<generator class="native"></generator>
+ 		</id>
+ 		<property name="url" column="url" ></property>
+ 		<property name="username" column="username"></property>
+ 		<property name="time" column="time"></property>
+ 		<many-to-one name="merchant" column="merchant_id"></many-to-one>
+
+ 	</class>
+ 
+ </hibernate-mapping>
